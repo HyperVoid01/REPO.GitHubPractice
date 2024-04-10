@@ -32,6 +32,7 @@ namespace GitHubPractice
             else
             {
                 rtbLog.Text = "You didn't enter anything and you die.";
+                //Boy do I love having nothing with the same consistency as a my sandwich in my sandwich
             }
         }
     }

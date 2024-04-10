@@ -22,10 +22,14 @@ namespace GitHubPractice
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            playerName = txtPlayerName.Text;
-            dragonName = txtDragonName.Text;
+            if (playerName != "")
+            {
+                playerName = txtPlayerName.Text;
+                dragonName = txtDragonName.Text;
 
-            rtbLog.Text = "Player Name: " + playerName + "\nDragon Name: " + dragonName;
+                rtbLog.Text = "Player Name: " + playerName + "\nDragon Name: " + dragonName;
+            }
+            
         }
     }
 }
